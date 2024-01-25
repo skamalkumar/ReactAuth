@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="blog__search">
           <input
             className="search"
-            placeholder="Search for your favorite blog..."
+            placeholder="Search your favorite blog..."
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />

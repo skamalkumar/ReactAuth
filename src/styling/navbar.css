@@ -20,6 +20,19 @@
   .navbar__header {
 content-visibility: hidden;
   }
+  .logout__button {
+    margin-left: 0px;
+    padding: none;
+  }
+  .navbar {
+      display: grid;
+      justify-content: space-around;
+      height: 25vh;
+    }
+    .user{
+      content-visibility: hidden;
+    }
+    
 }
 
 .navbar__user__data {
